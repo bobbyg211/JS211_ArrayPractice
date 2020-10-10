@@ -20,23 +20,23 @@
 ### Challenges
 
 1. `.length` - Create an array called cars which consists of 4 different types of cars as String type. The first car type should be Ford and includes Honda.
-   * Console.log the length of the array.
-   * Use node main.js to run the program.
+   - Console.log the length of the array.
+   - Use node main.js to run the program.
 2. `.concat()` - Create another array called moreCars with 4 more different types of cars. The last car type should be Honda.
-   * Use the concat method to combine the cars and moreCars arrays into another array called totalCars.
-   * Run the program.
+   - Use the concat method to combine the cars and moreCars arrays into another array called totalCars.
+   - Run the program.
 3. `.indexOf() and .lastIndexOf()` - Use the indexOf method to console.log the index of Honda.
-    * Use the lastIndexOf method to console.log the index of Ford.
-   * Run the program.
+   - Use the lastIndexOf method to console.log the index of Ford.
+   - Run the program.
 4. `.join()` - Use the join method to covert the array totalCars into a string called stringOfCars.
-   * Run the program.
+   - Run the program.
 5. `.split()` - Use the split method to convert stringOfCars back intro an array called totalCars.
-    * Run the program.
+   - Run the program.
 6. `.reverse()` - Use the reverse method to create an array carsInReverse which is the array totalCars in reverse.
-   * Run the program.
+   - Run the program.
 7. `.sort()` - Use the sort method to put the array carsInReverse into alphabetical order.
-    * Based on the types of cars you used, predict which item in the array should be at index 0.
-    * Use the following code to confirm or reject your prediction: `alert(carsInReverse.indexOf('yourPrediction'));`
+   - Based on the types of cars you used, predict which item in the array should be at index 0.
+   - Use the following code to confirm or reject your prediction: `alert(carsInReverse.indexOf('yourPrediction'));`
 8. `.slice()` - Use the slice method to remove Ford and Honda from the carsInReverse array and move them into a new array called removedCars.
 9. `.splice()` - Use the splice method to remove the 2nd and 3rd items in the array carsInReverse and add Ford and Honda in their place.
 10. `.push()` - Use the push method to add the types of cars that you removed using the splice method to the carsInReverse array.
@@ -45,7 +45,8 @@
 13. `.unshift()` - Use the unshift method to add a new type of car to the array carsInReverse.
 
 14 `.forEach()` - Create an array called numbers with the following items: 23, 45, 0, 2 Write code that will add 2 to each item in the array numbers.
-   * `.forEach()` requires a function to be passed into it as its first argument. Build a function that will add 2 and then use `.forEach()` to pass each number into your freshly built function. `const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]`
+
+- `.forEach()` requires a function to be passed into it as its first argument. Build a function that will add 2 and then use `.forEach()` to pass each number into your freshly built function. `const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]`
 
 ### Hints
 
@@ -56,7 +57,7 @@
 1. Look at your hints!
 1. **Clone, setup, testing, and running instructions for all projects is below**
 
-******
+---
 
 ## Cloning Your Project
 
@@ -64,15 +65,15 @@
 1. Copy HTTPS URL from your forked repository
 1. In your terminal/gitBash/CommandPrompt navigate (using `cd`) into a directory where you want to start keeping your repositories. (`/jsDevFolder`)
 1. Clone your new repository by typing `git clone <forked clone URL>` (the HTTPS
-URL you copied above)
-  ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
+   URL you copied above)
+   ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
 1. Now go into the new directory by using `cd project-repo`
 
 1. Add the base repository as an upstream
-    `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
+   `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
 
 1. Check the configuration of your remotes with `git remote -v`, it should look
-very similar to this (except it'll be YOUR username)
+   very similar to this (except it'll be YOUR username)
 
 ```bash
 $ git remote -v
@@ -86,32 +87,27 @@ upstream    git@github.com:AustinCodingAcademy/javascript-workbook.git (push)
 ### Setup
 
 1. From your project directory, run `npm i` to tell NPM to install all the
-node modules we use in this class (see `package.json`)
+   node modules we use in this class (see `package.json`)
 1. Use your textEditor (VS Code) to change your files.
 1. When you're finished `git status`, stage your file `git add .`, commit your changes `git commit -m "functions working"`, and push to
-GitHub `git push`
-    ```bash
-    git status
-    git add .
-    git commit -m "Initial Commit"
-    git push origin gh-pages
-    ```
+   GitHub `git push`
+   `bash git status git add . git commit -m "Initial Commit" git push origin gh-pages `
 
 1. Now go to your forked repository on GitHub (at
-  https://github.com/your-username/javascript-workbook). A little yellow box
-  should have popped up asking you to make a Pull Request. Click to review.
+   https://github.com/your-username/javascript-workbook). A little yellow box
+   should have popped up asking you to make a Pull Request. Click to review.
 
 1. Click "Create Pull Request"
 
-1. Every time you make a change *and push to GitHub*, this PR will automatically
-update. No need to do it more than once.
+1. Every time you make a change _and push to GitHub_, this PR will automatically
+   update. No need to do it more than once.
 
 #### Get latest workbook updates
 
 1. To get the latest code/homework/test updates, be sure to have a "clean
-working directory" by committing or removing all of your changes. You check for
-a "clean working environment" by running `git status` and making sure no files
-show up.
+   working directory" by committing or removing all of your changes. You check for
+   a "clean working environment" by running `git status` and making sure no files
+   show up.
 
 1. Run `git pull upstream gh-pages`
 
